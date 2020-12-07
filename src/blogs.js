@@ -1,16 +1,7 @@
-import sxs from '../assets/images/blogs/salesforce_x_slack.jpg'
-import sfl from '../assets/images/blogs/surface_laptop.jpg'
-import ab2 from '../assets/images/blogs/apple-best-of-2020.jpg'
-import axn from '../assets/images/blogs/apple-x-nike.jpg'
-import aw from '../assets/images/authors/alex-wilhelm.jpg';
-import es from '../assets/images/authors/ewan_spence.jpeg';
-import ap from '../assets/images/authors/apple.png';
-import hn from '../assets/images/authors/highsnobeity.jpg';
-
 const blogs = [
 	{
 		title: 'Salesforce buys Slack in a $27.7B megadeal',
-		image: sxs,
+		image: require('../assets/images/blogs/salesforce_x_slack.jpg'),
 		content: 'Salesforce, the CRM powerhouse that recently surpassed $20 billion in annual ' +
 			'revenue, announced today it is wading deeper into enterprise social by acquiring Slack ' +
 			'in a $27.7 billion megadeal. Rumors of a pending deal surfaced last week, causing ' +
@@ -42,7 +33,7 @@ const blogs = [
 		,
 		author: {
 			name: 'Alex Wilhelm',
-			image: aw,
+			image: require('../assets/images/authors/alex-wilhelm.jpg'),
 		},
 		readTime: 6,
 		id: 'e2979a2e-eb53-4a19-80f1-7cc7aa07bee7',
@@ -51,10 +42,10 @@ const blogs = [
 	},
 	{
 		title: 'New Leaks Reveal Microsoft’s Latest Surface Pro',
-		image: sfl,
+		image: require('../assets/images/blogs/surface_laptop.jpg'),
 		author: {
 			name: 'Ewan Spence',
-			image: es
+			image: require('../assets/images/authors/ewan_spence.jpeg')
 		},
 		category: 'Tech',
 		readTime: 3,
@@ -92,7 +83,7 @@ const blogs = [
 		title: 'Apple presents App Store Best of 2020 winners',
 		author: {
 			name: 'Apple',
-			image: ap
+			image: require('../assets/images/authors/apple.png')
 		},
 		content: 'Apple today presented its App Store Best of 2020 winners, recognizing 15 apps ' +
 			'and games that proved to be essential for making life easier, healthier, and more ' +
@@ -116,16 +107,16 @@ const blogs = [
 		,
 		accent: '#e7e6eb',
 		readTime: 7,
-		image: ab2,
+		image: require('../assets/images/blogs/apple-best-of-2020.jpg'),
 		category: 'Tech',
 		id: 'f4d2b4b2-33d7-45fd-a20d-ef95ad209120'
 	},
 	{
 		title: 'Apple & Nike Are Lobbying for Forced Labor',
-		image: axn,
+		image: require('../assets/images/blogs/apple-x-nike.jpg'),
 		author: {
 			name: 'Highsnobeity',
-			image: hn,
+			image: require('../assets/images/authors/highsnobeity.jpg'),
 		},
 		content: 'Apple and Nike are among the business groups and major companies working to ' +
 			'weaken a bill that would ban imported goods made with forced labor in China’s Xinjiang ' +
