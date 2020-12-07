@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { ScrollView, View, Image, Text, StyleSheet } from 'react-native';
 import { Author, ReadTime } from '../components'
 import { vars, colors } from '../utils';
