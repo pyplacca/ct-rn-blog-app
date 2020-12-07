@@ -5,7 +5,7 @@ import { vars, colors } from '../utils';
 
 
 function Article ({route: {params: {props}}}) {
-	// props: title, content, cover, author
+	// props: title, content, image, author
 
 	return (
 		<ScrollView
