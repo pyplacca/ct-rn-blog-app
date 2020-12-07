@@ -7,7 +7,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { Article, BlogPosts } from './src/screens';
 import Header from './src/components/blogposts/Header';
 import ArticleHeader from './src/components/article/ArticleHeader'
-import blogs from './src/blogs';
 
 
 const theme = {
