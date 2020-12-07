@@ -1,7 +1,6 @@
 import React from 'react';
 import { FlatList, View, Text, StyleSheet, StatusBar } from 'react-native';
 import PostCard from '../components/blogposts/PostCard';
-import { Home } from './'
 import { vars, colors } from '../utils'
 import blogs from '../blogs';
 
