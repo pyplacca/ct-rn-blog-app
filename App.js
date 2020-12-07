@@ -1,5 +1,4 @@
 import React from 'react';
-import * as Font from 'expo-font';
 import { useFonts } from '@use-expo/font';
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native'
@@ -33,7 +32,7 @@ export default function App() {
   				name='blogposts'
   				component={BlogPosts}
   				options={{
-  					header: props => <Header/>
+  					header: () => <Header/>
   				}}
   			/>
   			<Stack.Screen
