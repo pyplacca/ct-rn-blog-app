@@ -1,6 +1,5 @@
 import React from 'react';
 import { useFonts } from '@use-expo/font';
-import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack';
 import { Article, BlogPosts } from './src/screens';
