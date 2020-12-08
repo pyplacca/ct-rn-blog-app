@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, Image, Pressable, StyleSheet } from 'react-native';
 import { Author, ReadTime } from '../'
 import { colors, vars } from '../../utils';
 
@@ -10,7 +10,7 @@ function PostCard ({navigation, ...props}) {
 	}
 
 	return (
-		<TouchableOpacity onPress={openArticle}>
+		<View>
 			<View style={[styles.container, props.style]}>
 				<View
 					style={[
@@ -18,7 +18,11 @@ function PostCard ({navigation, ...props}) {
 						{backgroundColor: props.accent}
 					]}
 				/>
-				<View style={styles.innerFrame}>
+				<Pressable
+					style={styles.innerFrame}
+					onPress={openArticle}
+					android_ripple={{color: props.accent}}
+				>
 					<Image
 						source={props.image}
 						style={styles.innerImage}
@@ -33,9 +37,9 @@ function PostCard ({navigation, ...props}) {
 							<ReadTime time={props.readTime}/>
 						</View>
 					</View>
-				</View>
+				</Pressable>
 			</View>
-		</TouchableOpacity>
+		</View>
 	)
 };
 
