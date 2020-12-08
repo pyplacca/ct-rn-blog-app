@@ -25,8 +25,8 @@ This app was bootstrapped using the [expo cli](https://expo.io/)
 ###  Screenshots
 <div style="display: flex; align-items: center; justify-content: space-between">
 	<img src="./screenshots/1.jpg" alt="screenshot" width="270px" height="auto">
-	<img src="./screenshots/2.jpg" alt="screenshot" width="270px" height="auto">
 	<img src="./screenshots/4.jpg" alt="screenshot" width="270px" height="auto">
+	<img src="./screenshots/2.jpg" alt="screenshot" width="270px" height="auto">
 </div>
 
 *All screenshots are available in the screenshots folder*
