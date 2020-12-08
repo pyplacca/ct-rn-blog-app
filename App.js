@@ -25,7 +25,7 @@ export default function App() {
 	})
 
   return !loaded ? null :  (
-  	<NavigationContainer theme={theme}>
+  	<NavigationContainer {...{theme}}>
   		<Stack.Navigator>
   			<Stack.Screen
   				name='blogposts'
@@ -39,7 +39,7 @@ export default function App() {
   				component={Article}
   				options={{
   					header: ({navigation, scene: {route}}) => (
-  						<ArticleHeader navigation={navigation} route={route}/>
+  						<ArticleHeader {...{navigation, route}}/>
   					)
   				}}
   			/>

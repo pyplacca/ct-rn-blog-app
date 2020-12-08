@@ -7,7 +7,7 @@ import blogs from '../blogs';
 
 
 function BlogPosts (props) {
-	const [refresh, setRefresh] = useState(false)
+	const [refreshing, setRefreshing] = useState(false)
 
 	return (
 		<View style={styles.container}>
@@ -19,10 +19,10 @@ function BlogPosts (props) {
 				*/
 				onRefresh={arg => {
 					console.log(arg)
-					setRefresh(true)
-					setTimeout(() => setRefresh(false), 2000)
+					setRefreshing(true)
+					setTimeout(() => setRefreshing(false), 2000)
 				}}
-				refreshing={refresh}
+				{...{refreshing}}
 				// and it ends right above this line
 				data={blogs}
 				renderItem={
