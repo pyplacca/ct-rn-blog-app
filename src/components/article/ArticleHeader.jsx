@@ -10,7 +10,7 @@ function ArticleHeader ({navigation, route}) {
 	return (
 		<View style={styles.frame}>
 			<StatusBar backgroundColor="transparent"/>
-			{/* that background that is visible behind the status bar*/}
+			{/* that half rectangle visible behind the status bar*/}
 			<View style={[styles.headerbg, {backgroundColor: props.accent}]}/>
 			<TouchableOpacity
 				style={styles.back}
