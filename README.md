@@ -3,7 +3,7 @@ This yet another completed Codetrain assignment :)
 <br/><br/>
 This app was bootstrapped using the [expo cli](https://expo.io/)
 
-### How To Run This App
+## How To Run This App
 1. Install expo using [this guide](https://docs.expo.io/get-started/installation/).
 2. Clone this repository.
 3. Install the expo client Andriod/iOS app on your phone.
@@ -22,7 +22,7 @@ This app was bootstrapped using the [expo cli](https://expo.io/)
 
 
 
-###  Screenshots
+## Screenshots
 <div style="display: flex; align-items: center; justify-content: space-between">
 	<img src="./screenshots/1.jpg" alt="screenshot" width="270px" height="auto">
 	<img src="./screenshots/4.jpg" alt="screenshot" width="270px" height="auto">
