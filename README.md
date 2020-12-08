@@ -1,5 +1,5 @@
-# React Native Blog App (sample)
-This yet another completed Codetrain assignment :)
+# Blog App
+This yet another Codetrain assignment on mobile development (react native) :)
 <br/><br/>
 This app was bootstrapped using the [expo cli](https://expo.io/)
 
