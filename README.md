@@ -29,7 +29,7 @@ This app was bootstrapped using the [expo cli](https://expo.io/)
 	<img src="./screenshots/2.jpg" alt="screenshot" width="270px" height="auto">
 </div>
 
-*All screenshots are available in the screenshots folder*
+*more in the screenshots folder*
 
 ### Demo (gif)
 <img src="./screenshots/gif.gif" alt="screenshot" width="270px" height="auto">
