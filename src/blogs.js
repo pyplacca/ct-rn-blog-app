@@ -18,7 +18,7 @@ const blogs = [
 			'Every worker at every company needs to communicate, something that Slack can ably ' +
 			'empower. What’s more, it also facilitates external communication with customers and ' +
 			'partners, something that should be quite useful for a company like Salesforce and ' +
-			'its family of offerings.\n' +
+			'its family of offerings.\n\n' +
 			'Ultimately, Slack was ripe for the taking. Entering 2020 it had lost around 40% of ' +
 			'its value since it went public. Consider that after its most recent earnings report, ' +
 			'the company lost 16% of its value, and before the Salesforce deal leaked, the company ' +
@@ -51,28 +51,28 @@ const blogs = [
 		readTime: 3,
 		content: 'Thanks to the latest leaked benchmarks, we have a better idea what to expect from' +
 			'Microsoft’s upcoming Surface Pro 8 and Surface Laptop 4 hardware, but we might have to' +
-			'wait a long time to see the new machines.\n' +
+			'wait a long time to see the new machines.\n\n' +
 			'The details from the Geekbench 5 database, via Windows Latest:\n' +
 			'“Benchmark for a device codenamed “OEMWY” suggests that Microsoft’s Surface Pro 8 or ' +
 			'Surface Laptop 4 (Business edition) could use Intel’s 11th-generation Tiger Lake ' +
 			'CPU (i7-1185G7).\n“Surface Laptop 4 with AMD Renoir Another benchmark is for a Surface ' +
 			'product with the codename “OEMGR OEMGR Product Name DV”. The Geekbench entry states ' +
 			'that the Surface Laptop is using outdated AMD Ryzen 7 3780U chip, but its “AMD Renoir” ' +
-			'connection can be sussed out by the codename highlighted in the benchmark.”\n' +
+			'connection can be sussed out by the codename highlighted in the benchmark.”\n\n' +
 			'It’s always worth noting that benchmarking numbers do not tell the whole story ' +
 			'(but when you consider how far ahead Apple’s M1 benchmarks are, the broad direction is ' +
 			'still a solid indicator to the rough pecking order).\nWhat benchmarks do show is that ' +
 			'the next Microsoft Surface devices are approaching the point where the team would be ' +
 			'comfortable showing them off to the public. Clearly labelled benchmarking tests tend to ' +
-			'happen near the end of the development period.\nIn terms of the actual hardware, ' +
+			'happen near the end of the development period.\n\nIn terms of the actual hardware, ' +
 			'I’d expect the Surface Pro 8 chipset to be bumped up to Intel’s Tiger Lake 11-generation ' +
 			'Core processors, which comes with the added bonus of Intel’s Xe GPU which will help ' +
-			'shape the Surface Pro as a machine suitable for media creation while on the move.\n' +
+			'shape the Surface Pro as a machine suitable for media creation while on the move.\n\n' +
 			'What is unlikely to be reshaped is the physical design. The curved lines and thinner ' +
 			'construction of the Surface Pro X are possible because of the lower thermal ' +
 			'requirements of the ARM processor; the Pro 8’s Intel chip will need more cooling, ' +
 			'air vents, and a fan, to deliver the top line performance expected.So expect the boxy ' +
-			'design to be retained.\nThe same design issues will likely shape the Surface Laptop 4. ' +
+			'design to be retained.\n\nThe same design issues will likely shape the Surface Laptop 4. ' +
 			'Even though its looking at an AMD chip rather than Intel, it’s still an x86-64 ' +
 			'processor which still needs a lot of thermal capacity.'
 		,
@@ -89,14 +89,14 @@ const blogs = [
 			'and games that proved to be essential for making life easier, healthier, and more ' +
 			'connected this year. Notable for their high quality, creative design, usability, and ' +
 			'innovative technology, these apps and games are equally celebrated for their positive ' +
-			'cultural impact, helpfulness, and importance.\n“This year, more than ever before, some ' +
+			'cultural impact, helpfulness, and importance.\n\n“This year, more than ever before, some ' +
 			'of our most creative and connected moments happened in apps. This was thanks to the ' +
 			'amazing work of developers who introduced fresh, helpful app experiences throughout the ' +
 			'year,” said Phil Schiller, Apple Fellow. “Around the world, we saw remarkable efforts ' +
 			'from so many developers, and these Best of 2020 winners are 15 outstanding examples of ' +
 			'that innovation. From helping us stay fit and mindful, to keeping our children’s ' +
 			'education on track, to helping fight hunger, their impact was meaningful to so ' +
-			'many of us.”\nThe independent developer of Wakeout! brought gentle exercise to home ' +
+			'many of us.”\n\nThe independent developer of Wakeout! brought gentle exercise to home ' +
 			'offices and classrooms with light-hearted and inclusive movements designed for everyone. ' +
 			'Vast fantasy worlds in games like “Genshin Impact,” “Legends of Runeterra,” ' +
 			'“Disco Elysium,” “Dandara Trials of Fear,” and Apple Arcade’s “Sneaky Sasquatch” ' +
@@ -120,20 +120,20 @@ const blogs = [
 		},
 		content: 'Apple and Nike are among the business groups and major companies working to ' +
 			'weaken a bill that would ban imported goods made with forced labor in China’s Xinjiang ' +
-			'region.\nAccording to congressional staff members, these companies have been publicly ' +
+			'region.\n\nAccording to congressional staff members, these companies have been publicly ' +
 			'condemning forced labor while privately trying to water down bills. And lobbying ' +
-			'records show vast spending on weakening the legislation.\nThe Uyghur Forced Labor ' +
+			'records show vast spending on weakening the legislation.\n\nThe Uyghur Forced Labor ' +
 			'Prevention Act and Uyghur Forced Labor Disclosure Act aim to crackdown on human ' +
 			'rights abuses in mass detention camps in China\'s Xinjiang region. The bills would ' +
 			'ban the use of products tied to the forced labor and would force companies to report ' +
 			'their ties to the Xinjiang region to the Securities and Exchange Commission. Both bills ' +
 			'have passed through the U.S. House of Representatives and have the bipartisan support ' +
-			'to pass in the Senate.\nHowever, the progressive bills have become the target of ' +
+			'to pass in the Senate.\n\nHowever, the progressive bills have become the target of ' +
 			'multinational companies including Apple, Nike, and Coca-Cola whose supply chains would ' +
 			'be affected by a crackdown on slavery in Xinjiang. According to the New York Times, ' +
 			'Coca-Cola claims it "strictly prohibits any type of forced labor" in its supply chain. ' +
 			'And Nike said it wasn\'t lobbying against the bill, but rather having "constructive ' +
-			'discussions" with congressional staff about how to eliminate forced labor.\nMeanwhile, ' +
+			'discussions" with congressional staff about how to eliminate forced labor.\n\nMeanwhile, ' +
 			'Patagonia actively exited the Xinjiang region earlier this year following concerns ' +
 			'about human rights abuses.\nThe UN estimates that there are at least one million ' +
 			'Uyghur Muslims held in more than 85 mass detention camps in the Xinjiang region, ' +
