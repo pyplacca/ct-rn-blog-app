@@ -33,3 +33,5 @@ This app was bootstrapped using the [expo cli](https://expo.io/)
 
 ### Demo (gif)
 <img src="./screenshots/gif.gif" alt="screenshot" width="270px" height="auto">
+
+[Click here to preview a live demo](https://snack.expo.io/@pyplacca/github.com-pyplacca-ct-rn-blog-app)
